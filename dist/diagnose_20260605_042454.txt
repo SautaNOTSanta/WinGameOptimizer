@@ -1,0 +1,49 @@
+Game Env Setup — Diagnostics
+Time: 2026-06-05 04:24:37
+
+── System ──────────────────────────────────────
+  [--]  OS — Microsoft Windows 10 专业版 Build 19045 64 位
+  [--]  RAM — 31.2 GB total / 0 GB free
+  [!!]  Low RAM — Only 0 GB free
+
+── CPU ─────────────────────────────────────────
+  [--]  CPU — AMD Ryzen 9 8940HX with Radeon Graphics
+  [--]  Cores — 16 cores / 32 threads
+  [--]  Power — 高性能
+  [OK]  Power plan — performance mode active
+
+── GPU ─────────────────────────────────────────
+  [--]  GPU — AMD Radeon(TM) 610M | Driver 32.0.21043.12001 | 512 MB VRAM
+  [OK]  GPU detected — AMD Radeon(TM) 610M
+  [--]  GPU — NVIDIA GeForce RTX 5060 Laptop GPU | Driver 32.0.15.9649 | 4095 MB VRAM
+  [OK]  GPU detected — NVIDIA GeForce RTX 5060 Laptop GPU
+  [OK]  HAGS — Hardware Accelerated GPU Scheduling enabled
+
+── Storage ─────────────────────────────────────
+  [OK]  Disk C: — 177.9 GB free / 299.2 GB (59%)
+  [!!]  Disk D: — 29.7 GB free / 953.6 GB (3%) — CRITICALLY LOW
+  [!!]  Disk E: — 81.0 GB free / 652.9 GB (12%) — low space
+  [OK]  Disk F: — 822.2 GB free / 931.5 GB (88%)
+
+── Runtimes ────────────────────────────────────
+  [OK]  VC++ 2015-2022 x64 — v14.51.36231.00
+  [!!]  VC++ 2015-2022 x86 — not found — run install_game_env.ps1
+  [OK]  .NET Framework 4.x — 4.8.09037
+  [--]  DirectX — 4.09.00.0904
+
+── Services ────────────────────────────────────
+  [OK]  Windows Audio (AudioSrv) — Running
+  [OK]  Base Filtering Engine (BFE) — Running
+  [OK]  Windows Firewall (mpssvc) — Running
+
+── Network ─────────────────────────────────────
+  [--]  Adapter — Karing TUN Network Adapter — 100 Gbps
+  [--]  Adapter — 以太网 — 1 Gbps
+  [OK]  Internet ping — 0 ms
+
+── Summary ─────────────────────────────────────
+  4 issue(s) found:
+    [!!] Low RAM
+    [!!] Disk D:
+    [!!] Disk E:
+    [!!] VC++ 2015-2022 x86
